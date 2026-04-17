@@ -31,7 +31,7 @@ const elements = {
 // Buscar dados do clima
 async function getWeather(city) {
   if (!city) {
-    showError("Por favor, digite o nome de uma cidade.")
+    showError("Please type the name of a city.")
     return
   }
 
@@ -40,7 +40,7 @@ async function getWeather(city) {
 
     if (!response.ok) {
       throw new Error(
-        response.status === 404 ? "Cidade não encontrada. Tente novamente." : "Erro ao buscar dados. Tente novamente.",
+        response.status === 404 ? "City not found. Please try again." : "Error retrieving data. Please try again.",
       )
     }
 
