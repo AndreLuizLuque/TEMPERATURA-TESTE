@@ -1,8 +1,22 @@
-TEMPERATURA-TESTE
-Desenvolvi um projeto simples de previsão do tempo para treinar requisições de API e melhorar minha prática em JavaScript. O app busca os dados de clima, mostra temperatura, sensação térmica, umidade, vento e muda o visual conforme a condição do tempo.
+Weather App with API Integration
+This project is a weather app that fetches real-time data based on user input.
 
-Aprendi a fazer chamadas para uma API, a tratar erros e a atualizar elementos da interface com dados em tempo real. Também organizei melhor meu código e trabalhei com HTML, CSS e JavaScript de forma separada.
+Features
 
-O projeto me ajudou a entender como integrar informações externas no front end e como estruturar uma aplicação pequena do zero.
+Search weather by city name
+Real-time API data
+Error handling for invalid cities
+Responsive design
 
-![Uploading image.png…]()
+Tech
+
+HTML
+CSS
+JavaScript
+API integration
+
+Live Demo
+https://andreluizluque.github.io/TEMPERATURA-TESTE/
+
+Repository
+https://github.com/AndreLuizLuque/TEMPERATURA-TESTE
